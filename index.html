@@ -11,46 +11,49 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-       <header >
+        <header >
         <a href="./"><img src="mudassir.svg" alt="mrmudassir"  height="30" width="150"></a>
            <nav class="nav">
-            <a class="page active" data-id="home" href="./">Home</a>
-            <a class="page"  data-id="about-me"       href="#">About</a>
-            <a class="page"  data-id="projects"       href="#">Projects</a>
-            <a class="page"  data-id="contact"       href="#">Contact</a>
+            <a class="home page active" href="#">Home</a>
+            <a class="about page"       href="#">About</a>
+            <a class="projects page"    href="#">Projects</a>
+            <a class="contact page"     href="#">Contact</a>
            </nav>
-       </header>
-       <div>
-        <div class="home" style="display: block;">
-            <h1 class="intro">Hello, My name is Mudassir and I build Online Businesses</h1>
-            <br>
-        </div> 
-        <div class="about-me" style="display: none;">
-            <div>
-                <p>"I build online businesses and convert your idea to reality. I am a certified Software Engineer. I am available at your service and you can check my projects <a href="/project">here</a>. I am available for consultation.<br> Thanks."</p>
+        </header>
+        <div>
+            <div class="home select" style="display: block;">
+                <h1 class="intro">Hello, My name is Mudassir and I build Online Businesses</h1>
+                <br>
+            </div> 
+            
+            <div class="about select" style="display: none;">
+                <div class="about-me">
+                    <p>"I build online businesses and convert your idea to reality. I am a certified Software Engineer. I am available at your service and you can check my projects <a class="page"  class="projects" href="#">here</a>. I am available for consultation.<br> Thanks."</p>
+                </div>
+                <div>
+                    <img  src="my-image.png" alt="Mudassir" height="500" width="400" data-atf="1"> 
+                </div>
             </div>
-            <div>
-                <img  src="my-image.png" alt="Mudassir" height="500" width="400" data-atf="1"> 
+    
+    
+            <div class="project select" style="display: none;">
+                <div>
+                    <a href="http://app.glorifyapp.com/" target="blank"><img src="glorify.png" alt="Mudassir" height="200" width="200" data-atf="1"></a>
+                    <h2 class="project-name">#1 Visit Glorify</h2>
+                </div>
             </div>
-        </div>
-        <div class="projects" style="display: none;">
-            <div>
-                <a href="http://app.glorifyapp.com/" target="blank"><img src="glorify.png" alt="Mudassir" height="200" width="200" data-atf="1"></a>
-                <h2 class="project-name">#1 Visit Glorify</h2>
+            <div class="contact select" style="display: none;">
+                <div class="form">      
+                    <input name="name" type="text" id="name" class="feedback-input" placeholder="Name" />   
+                    <input name="email" type="text" id="email" class="feedback-input" placeholder="Email" />
+                    <textarea name="text" id="message" class="feedback-input" placeholder="Comment"></textarea>
+                    <input id="send" type="submit" value="SEND"/>
+                </div>
             </div>
-        </div>
-        <div class="contact" style="display: none;">
-            <div class="form">      
-                <input name="name" type="text" id="name" class="feedback-input" placeholder="Name" />   
-                <input name="email" type="text" id="email" class="feedback-input" placeholder="Email" />
-                <textarea name="text" id="message" class="feedback-input" placeholder="Comment"></textarea>
-                <input id="send" type="submit" value="SEND"/>
-            </div>
-        </div>
-       </div>
+           </div>
        <footer>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>           
-        <script type="text/javascript" src="index.js"></script>
-    </footer>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>           
+            <script type="text/javascript" src="index.js"></script>
+        </footer>
     </body>
 </html>

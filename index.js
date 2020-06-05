@@ -11,20 +11,20 @@ var mainEventClass = function () {
     $(".page").click(function(){
       $(".page").removeClass('active');
       $(this).addClass('active');
-      if($(this).data('id')=='home')
-      {
+      if($(this).hasClass('home')){
+        $(".select").css('display','none')
         $(".home").css('display','block')
       }
-      else if($(this).data('id')=='about-me')
-      {
-        $(".about-me").css('display','block')
+      else if($(this).hasClass('about')){
+        $(".select").css('display','none')
+        $(".about").css('display','block')
       }
-      else if($(this).data('id')=='projects')
-      {
-        $(".projects").css('display','block')
+      else if($(this).hasClass('projects')){
+        $(".select").css('display','none')
+        $(".project").css('display','block')
       }
-      else
-      {
+      else if($(this).hasClass('contact')){
+        $(".select").css('display','none')
         $(".contact").css('display','block')
       }
     })
