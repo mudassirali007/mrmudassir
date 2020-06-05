@@ -1,0 +1,12 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 210" height="200" width="200" xml:space="preserve" version="1.1">
+   <g transform="matrix(1.3333333,0,0,-1.3333333,0,960)">
+   <g>
+    <g transform="translate(14,610)">
+    <path style="fill:#0095dd;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 H -15.149 V 104.996 H -2.85 l 34.649,-50.998 34.648,50.998 h 12 V 0 h -15 V 73.947 L 35.998,33.148 H 27.449 L 0,73.947 Z"/>
+    </g>
+    <g transform="translate(115,650)">
+    <path style="fill:#0095dd;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 18,3.149 27.149,17.25 27.149,32.099 0,16.649 -11.399,33.448 -34.199,33.448 l -23.703,-0.15 0.066,-15.255 c 0.133,-0.001 0.261,-0.009 0.388,-0.019 v 0.125 H -7.05 C 5.7,50.248 12,41.099 12,32.099 12,22.949 5.7,13.8 -7.05,13.8 H -24.749 V 6.6 L 13.5,-39.448 h 19.649 z"/>
+    </g>
+    </g>
+    </g>
+</svg>
