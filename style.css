@@ -108,3 +108,26 @@ body{
     font-weight:700;
   }
   [type="submit"]:hover { background:#CC4949; }
+
+
+#email-link {
+  background-color: red;
+  box-shadow: 0 5px 0 darkred;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  float: right;
+  margin-top: 10px;
+}
+
+#email-link:hover {
+  background-color: #ce0606;
+}
+
+#email-link:active {
+  box-shadow: none;
+  top: 5px;
+}
+
